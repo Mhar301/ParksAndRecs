@@ -1,5 +1,5 @@
 
-body {
+body { 
     background-image: url('wall2.jpg'); 
     background-size: 100% 50%;
     background-position: top center;
@@ -19,6 +19,7 @@ header {
     margin: 0;
     border-bottom: 1px solid #82cf85; 
     padding-top: 70px; 
+    font-size: 24px;  /* Slightly smaller font size */
 }
 
 .mini-header {
@@ -27,6 +28,7 @@ header {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px;  /* Slightly smaller font size */
 }
 
 .topnav {
@@ -42,8 +44,9 @@ header {
     float: left;
     color: white;
     text-align: center;
-    padding: 16px 18px;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 16px;  /* Slightly smaller font size */
 }
 
 .topnav a.active {
@@ -80,12 +83,12 @@ header {
 
 .content p {
     max-width: 700px; 
-    font-size: 24px; 
+    font-size: 18px;  /* Slightly smaller font size */
     line-height: 1.6; 
 }
 
 .highlighted-text {
-    font-size: 32px; 
+    font-size: 24px;  /* Slightly smaller font size */
     font-weight: bold; 
     background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
@@ -109,13 +112,13 @@ header {
 }
 
 .column h2 {
-    font-size: 30px;
+    font-size: 20px;  /* Slightly smaller font size */
     color: #333;
     margin-bottom: 10px;
 }
 
 .column p {
-    font-size: 32px;
+    font-size: 20px;  /* Slightly smaller font size */
     color: #555;
 }
 
@@ -157,7 +160,7 @@ video {
 footer {
     text-align: center;
     font-family: Arial, sans-serif;
-    font-size: 32px;
+    font-size: 20px;  /* Slightly smaller font size */
     padding: 3px;
     background-color: #3f704d;
     color: white;
@@ -190,7 +193,7 @@ tr {
 th, td {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 20px;  /* Slightly smaller font size */
     padding: 20px;
     text-align: left;
     width: 33.3333%;
@@ -207,14 +210,14 @@ th, td {
 
 .faq-header {
     text-align: center;
-    font-size: 64px;
+    font-size: 32px;  /* Slightly smaller font size */
     color: #3f704d;
     margin-bottom: 20px;
 }
 
 .faq-item {
     margin-bottom: 15px;
-    font-size: 38px;
+    font-size: 18px;  /* Slightly smaller font size */
 }
 
 .faq-question {
@@ -235,6 +238,7 @@ footer {
     background-color: #3f704d;
     color: white;
     margin-top: 20px;
+    font-size: 18px;  /* Slightly smaller font size */
 }
 
 .fun-facts {
@@ -244,7 +248,7 @@ footer {
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-size: 35px;
+    font-size: 20px;  /* Slightly smaller font size */
 }
 
 .event-banner {
@@ -255,7 +259,7 @@ footer {
     margin: 20px auto;
     border-radius: 10px;
     border: 3px solid #e2ac42;
-    font-size: 35px;
+    font-size: 20px;  /* Slightly smaller font size */
 }
 
 .park-rules {
@@ -269,29 +273,27 @@ footer {
     text-align: left;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    font-size: 35px;
+    font-size: 18px;  /* Slightly smaller font size */
 }
 
 .park-rules h2 {
     text-align: center;
     color: #3f704d;
-    font-size: 28px;
+    font-size: 22px;  /* Slightly smaller font size */
     margin-bottom: 20px;
 }
 
 .park-rules ul {
     list-style-type: none;
     padding: 0;
-    
 }
 
 .park-rules ul li {
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 18px;  /* Slightly smaller font size */
     color: #333;
     display: flex;
     align-items: center;
-    font-size: 35px;
 }
 
 .park-rules ul li::before {
